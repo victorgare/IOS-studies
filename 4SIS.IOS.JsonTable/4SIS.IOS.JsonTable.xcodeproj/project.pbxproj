@@ -12,6 +12,8 @@
 		AC6E6B76216C2FC6002B3377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6E6B74216C2FC6002B3377 /* Main.storyboard */; };
 		AC6E6B78216C2FC7002B3377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6E6B77216C2FC7002B3377 /* Assets.xcassets */; };
 		AC6E6B7B216C2FC7002B3377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6E6B79216C2FC7002B3377 /* LaunchScreen.storyboard */; };
+		AC6E6B83216C3034002B3377 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E6B82216C3034002B3377 /* ListaTableViewController.swift */; };
+		AC6E6B85216C323A002B3377 /* Aplicativo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6E6B84216C323A002B3377 /* Aplicativo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC6E6B77216C2FC7002B3377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6E6B7A216C2FC7002B3377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6E6B7C216C2FC7002B3377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6E6B82216C3034002B3377 /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		AC6E6B84216C323A002B3377 /* Aplicativo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplicativo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		AC6E6B6F216C2FC5002B3377 /* 4SIS.IOS.JsonTable */ = {
 			isa = PBXGroup;
 			children = (
+				AC6E6B82216C3034002B3377 /* ListaTableViewController.swift */,
+				AC6E6B84216C323A002B3377 /* Aplicativo.swift */,
 				AC6E6B70216C2FC6002B3377 /* AppDelegate.swift */,
 				AC6E6B72216C2FC6002B3377 /* ViewController.swift */,
 				AC6E6B74216C2FC6002B3377 /* Main.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				AC6E6B73216C2FC6002B3377 /* ViewController.swift in Sources */,
 				AC6E6B71216C2FC6002B3377 /* AppDelegate.swift in Sources */,
+				AC6E6B83216C3034002B3377 /* ListaTableViewController.swift in Sources */,
+				AC6E6B85216C323A002B3377 /* Aplicativo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
